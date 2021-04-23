@@ -3,6 +3,7 @@
   <name>nunit</name>
   <parameters>
     <param name="a" value="a" />
+    <param name="a1" value="a1" />
   </parameters>
   <project-extensions>
     <extension id="PROJECT_EXT_4" type="versionedSettings">
