@@ -2,7 +2,7 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="dc3a8e25-6d53-4ab1-bfcd-51ef49533d52" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
   <name>nunit</name>
   <parameters>
-    <param name="a" value="a" />
+    <param name="a" value="credentialsJSON:dcd8a8ad-bb4d-4cca-81fa-f02698a28061" spec="password display='normal'" />
     <param name="a1" value="a1" />
   </parameters>
   <project-extensions>
