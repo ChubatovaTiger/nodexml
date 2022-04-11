@@ -6,7 +6,7 @@
   <param name="authMethod" value="PASSWORD" />
   <param name="branch" value="refs/heads/main" />
   <param name="ignoreKnownHosts" value="true" />
-  <param name="secure:password" value="d674df64-6be8-409d-b5c0-99e908571ff4" />
+  <param name="secure:password" value="credentialsJSON:d674df64-6be8-409d-b5c0-99e908571ff4" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="url" value="https://github.com/ChubatovaTiger/nodexml" />
   <param name="useAlternates" value="AUTO" />
