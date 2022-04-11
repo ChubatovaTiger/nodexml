@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="181a6a0b-d031-423e-8677-72271ed1af41" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>ac</name>
+  <description />
+  <settings>
+    <options>
+      <option name="artifactRules" value="a.txt =&gt; .&#xA;b.txt =&gt; .&#xA;c.txt =&gt; ." />
+      <option name="maximumNumberOfBuildsPerBranch" value="&lt;default&gt; 1&#xD;&#xA;12е 2&#xD;&#xA;split12 3" />
+    </options>
+    <parameters />
+    <build-runners>
+      <runner id="RUNNER_1" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content"><![CDATA[sleep 100
+sleep 50]]></param>
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
+    <vcs-settings>
+      <vcs-entry-ref root-id="CbdXml_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup" />
+    </vcs-settings>
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
