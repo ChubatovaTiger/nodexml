@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="fed63977-4202-483a-9dfe-720adf78b757" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>ss</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_3" type="CloudImage">
+      <parameters>
+        <param name="agent_pool_id" value="-2" />
+        <param name="amazon-id" value="i-0bac57491499880ff" />
+        <param name="ebs-optimized" value="false" />
+        <param name="instance-type" value="m5.xlarge" />
+        <param name="key-pair-name" value="chubatova-amazon-ireland" />
+        <param name="profileId" value="amazon-1" />
+        <param name="security-group-ids" value="sg-072d8bfa0626ea2a6," />
+        <param name="source-id" value="i-0bac57491499880ff" />
+        <param name="subnet-id" value="subnet-0ace2a91ee63119ea" />
+        <param name="use-spot-instances" value="false" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_7" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="rootId" value="Ss_HttpsGithubComChubatovaTigerNodexml" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+    <extension id="amazon-1" type="CloudProfile">
+      <parameters>
+        <param name="cloud-code" value="amazon" />
+        <param name="description" value="" />
+        <param name="enabled" value="true" />
+        <param name="max-running-instances" value="1" />
+        <param name="name" value="sdf" />
+        <param name="next-hour" value="5" />
+        <param name="not-checked" value="" />
+        <param name="profileId" value="amazon-1" />
+        <param name="profileServerUrl" value="" />
+        <param name="region" value="eu-west-1" />
+        <param name="secure:access-id" value="credentialsJSON:fff3bc2f-4e61-42cb-853f-851320d7d05b" />
+        <param name="secure:secret-key" value="credentialsJSON:91645d7e-8309-4cbe-a549-66ac8f0cec31" />
+        <param name="system.cloud.profile_id" value="amazon-1" />
+        <param name="terminate-idle-time" value="30" />
+        <param name="total-work-time" value="" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
