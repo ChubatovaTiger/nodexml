@@ -4,7 +4,7 @@
   <description />
   <settings>
     <options>
-      <option name="maximumNumberOfBuildsPerBranch" value="1" />
+      <option name="maximumNumberOfBuildsPerBranch" value="&lt;default&gt; 1&#xD;&#xA;12е 2" />
     </options>
     <parameters />
     <build-runners>
