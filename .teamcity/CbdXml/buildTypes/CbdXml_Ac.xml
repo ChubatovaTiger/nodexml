@@ -4,6 +4,7 @@
   <description />
   <settings>
     <options>
+      <option name="artifactRules" value="a.txt =&gt; .&#xA;b.txt =&gt; .&#xA;c.txt =&gt; ." />
       <option name="maximumNumberOfBuildsPerBranch" value="&lt;default&gt; 1&#xD;&#xA;12е 2" />
     </options>
     <parameters />
