@@ -3,6 +3,9 @@
   <name>s_filters_nosubstring2</name>
   <description />
   <settings>
+    <options>
+      <option name="maximumNumberOfBuilds" value="2" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_1" name="" type="gradle-runner">
