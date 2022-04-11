@@ -6,6 +6,9 @@
     <options>
       <option name="maximumNumberOfBuilds" value="2" />
     </options>
+    <disabled-settings>
+      <setting-ref ref="parallelTests" />
+    </disabled-settings>
     <parameters />
     <build-runners>
       <runner id="RUNNER_1" name="" type="gradle-runner">
